@@ -289,6 +289,7 @@ name = "meatloaf"
 version = "0.1.0"
 dependencies = [
  "clap",
+ "rainbow-text",
  "zmq",
 ]
 
@@ -345,6 +346,15 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "5267fca4496028628a95160fc423a33e8b2e6af8a5302579e322e4b520293cae"
 dependencies = [
  "proc-macro2",
+]
+
+[[package]]
+name = "rainbow-text"
+version = "0.1.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a61879081484a5830a4f91aa642cf14be4c2171eea2d37080ebaff0ff8782690"
+dependencies = [
+ "termcolor",
 ]
 
 [[package]]
@@ -454,6 +464,15 @@ name = "target-lexicon"
 version = "0.12.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "9d0e916b1148c8e263850e1ebcbd046f333e0683c724876bb0da63ea4373dc8a"
+
+[[package]]
+name = "termcolor"
+version = "1.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "be55cf8942feac5c765c2c993422806843c9a9a45d4d5c407ad6dd2ea95eb9b6"
+dependencies = [
+ "winapi-util",
+]
 
 [[package]]
 name = "toml"

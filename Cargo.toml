@@ -7,4 +7,5 @@ edition = "2021"
 
 [dependencies]
 clap = { version = "4.4.0", features = ["derive"] }
+rainbow-text = "0.1.5"
 zmq = "0.10.0"
